@@ -30,8 +30,21 @@ body {
 #search-container button{
     padding: 1em 2em;
     margin-left: 1em;
-    background-color: rgb(5, 93, 209);
-    color: white;
+    background-color: wheat;
+    color: brown;
     border-radius: 5px;
     margin-top: 0.1em;
+    cursor: pointer;
+}
+.button-value{
+    border: 2px solid wheat;
+    padding: 1em 2.5em;
+    background: transparent;
+    border-radius: 20px;
+    color: brown;
+    cursor: pointer;
+}
+.active{
+    background-color: wheat;
+    color: white;
 }
